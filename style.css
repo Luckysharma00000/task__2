@@ -1,0 +1,106 @@
+*{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo{
+    width: 150px;
+    position: relative;
+}
+.nav{
+   display: flex;
+  justify-content: space-between;
+  
+}
+.nav_main{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav_data{
+    padding: 25px 25px;
+    font-size: larger;
+    color: rgb(157, 236, 236);
+    border: 0px ;
+    cursor: pointer;
+
+}
+.left{
+    height: auto;
+    width: 50vw;
+    padding-left: 75px;
+  
+  
+    font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+}
+.main{
+    display: flex;
+    
+}
+.invert{
+    opacity: 1;
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+.skills-list{
+    list-style: none;
+    padding-left: 500px;
+    
+}
+.color-aqua{
+    color:aquamarine
+}
+.color-chart{
+    color:rgb(110 255 236);
+}
+
+.button-pro{
+    padding: 15px 25px;
+   font-size: large;
+    border:2px solid;
+    cursor: pointer;
+    color:aquamarine;
+}
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact{
+    padding-top: 50px;
+    padding-left: 25px;
+   
+}
+.contact-email{
+    color: cornflowerblue;
+    
+    cursor: pointer;
+}
+.contact-mobile{
+    color: cornflowerblue;
+    
+    cursor: pointer;
+}
+.btn-resume{
+    
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    border: 0px ;
+    cursor: pointer;
+}
+.right{
+    cursor: pointer;
+}
